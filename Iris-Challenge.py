@@ -5,6 +5,9 @@ from sklearn.metrics import accuracy_score
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 
+# 3 different machine learning techniques from the sklearn library tackle the Iris flower identifying
+# challenge, each achieving extremely high rates of probablity, reaching the optimum of 1 in some examples.
+
 iris = load_iris()
 x = iris.data
 y = iris.target
